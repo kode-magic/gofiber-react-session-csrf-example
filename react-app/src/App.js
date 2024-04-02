@@ -365,7 +365,7 @@ function AppContent() {
 
   return (
     <div className="main-content">
-      <h1>Example React Frontend</h1>
+      <h1>Example React Frontend With Fiber</h1>
       {loggedIn ? <AuthorizedContent /> : <LoginPage />}
     </div>
   );
